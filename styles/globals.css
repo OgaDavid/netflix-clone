@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-bg-black text-white
+    }
+
+    header {
+        @apply fixed top-0 z-50 w-full flex justify-between items-center px-4 py-4 transition-all duration-500 lg:px-10 lg:py-6
+    }
+}
+
+@layer components {
+    .menuLink {
+        @apply cursor-pointer text-sm text-grey-nav transition duration-400 hover:text-grey-hover
+    }
+
+    .glassmorphism {
+        background-color: rgba(255, 255, 255, 0.274);  
+        backdrop-filter: blur(5px);
+        padding: 20px 35px 20px 35px;
+    }
+}
