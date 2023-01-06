@@ -19,7 +19,7 @@ function Header() {
     
 
   return (
-    <header className={`${isScrolled && "glassmorphism"}`}>
+    <header className={`${isScrolled && "glassmorphism header-padding"}`}>
         <div className="flex items-center space-x-2 md:space-x-10">
             <img 
             src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" 
