@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react'
 import { Movie } from '../typings'
 import { baseUrl } from '../constants/movie'
 import { FaPlay } from "react-icons/fa"
-import { InformationCircleIcon } from "@heroicons/react/24/solid"
 
 
 type Props = {
@@ -18,6 +17,7 @@ function Banner({ netflixOriginals }: Props) {
     },[netflixOriginals])
     console.log(movie);
   return (
+    <>
     <div className='flex flex-col space-y-2 py-36 md:space-y-4 lg:justify-end lg:pb-12'>
         <div className='absolute top-0 left-0 w-screen -z-50 h-[95vh]'>
             <Image src={`${baseUrl}${movie?.backdrop_path || movie?.poster_path} `} alt="Movie backdrop" fill style={{objectFit: "cover"}}/>
@@ -35,7 +35,10 @@ function Banner({ netflixOriginals }: Props) {
                 </svg>
             </button>
         </div>
+
     </div>
+
+    </>
   )
 }
 
