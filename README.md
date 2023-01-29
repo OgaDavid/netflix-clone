@@ -1,1 +1,1 @@
-### Netflix clone with ns and typescript.
+### Netflix clone with next js and typescript.
