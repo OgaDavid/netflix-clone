@@ -70,7 +70,7 @@ export default function Home({
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta content='content="Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more."' name="description"/>
-        <meta content="watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies Nigeria, watch TV online, no download, full length movies" name="keywords" />
+        <meta content="watch movies, movies online, Watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies Nigeria, watch TV online, no download, full length movies" name="keywords" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
